@@ -9,8 +9,7 @@ Welcome to the Food Delivery App! This application allows users to browse throug
 - **Browse Food Items**: Users can browse through a curated list of food items with images and descriptions.
 - **Cart Management**: Add, remove, and update items in the cart before placing an order.
 - **Order Tracking**: Keep track of orders from placement to delivery.
-- **Responsive Design**: Fully responsive design to work seamlessly on all devices.
-- **Google Sign-In**: Option to sign in using Google for a quick and easy login experience.
+
 
 ## Technologies Used
 
