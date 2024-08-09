@@ -1,0 +1,55 @@
+.cart-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 17rem;
+}
+.cart-1 button{
+    border: 2px solid red;
+    border-radius: .3rem;
+    font-size: 14px;
+    height: 48px;
+    margin: 16px 8px;
+    padding: 16px 32px;
+    color: aliceblue;
+    background-color: red;
+}
+.cart-1 button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.cart{
+    border: 2px solid rgb(233, 88, 27);
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 88, 27);
+}
+.cart h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(246, 246, 247);
+    padding-top: 1rem;
+    
+}
+.cart div img{
+    height: auto;
+    width: 500px;
+    padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+.add-cart{
+    display: flex;
+    flex-direction: row;
+    gap: 13rem;
+}
+.add-cart img{
+ border-radius: .3rem;
+}
+.cart-total{
+    margin-left: 9rem;
+}

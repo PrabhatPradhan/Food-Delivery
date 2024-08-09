@@ -1,0 +1,238 @@
+.accodin{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    gap: 2rem;
+}
+.accodin h1{
+    font-size: 1rem;
+    color: red;
+    margin-right: 8rem;
+    border: 1px solid black;
+    width: 50%;
+}
+.answar{
+    width: 50%;
+
+}
+.user-img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.reviews-box{
+    border: 1px solid gray;
+    height: 12rem;
+    width: 80%;
+    border-radius: .3rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.feedback-user-ditels{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+   
+}
+.star-review{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.user-name-review{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.date-review{
+    color: rgb(144, 142, 142);
+    font-size: .9rem;
+}
+.feedback-review{
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+.boxs-reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todo-review{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.add-todo-review{
+    border: 1px solid red;
+    width: 4rem;
+    height: 2.5rem;
+    border-radius: .3rem;
+    background-color: rgb(229, 70, 8);
+}
+.todo-review textarea{
+    height: 8rem;
+}
+.todo-list-review-{
+    border: 1px solid black;
+    height: 12rem;
+    width: 80%;
+    border-radius: .3rem;
+    margin-left: 7.8rem;
+    margin-top: 2rem;
+}
+.todo-list-review- ul li{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+.Reviews2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 2rem;
+}
+.todo-list{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.todo-item{
+    border: 1px solid black;
+    height: 12rem;
+    width: 80%;
+    margin-left: 7.6rem;
+    border-radius: .3rem;
+    margin-bottom: 1rem;
+}
+.todo-details{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.todo-details span{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todo-details h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.todo-date{
+    color: gray;
+}
+.todo-text{
+    margin-left: 1rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+.todo-item hr{
+    margin-top: 2.5rem;
+}
+.todo-input-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.todo-input{
+    height: 9rem;
+    width: 25rem;
+    border-radius: .3rem;
+    border: 1px solid rgb(232, 90, 9);
+}
+.todo-add-button{
+    border: 2px solid rgb(243, 85, 11);
+    height: 2.5rem;
+    width: 5rem;
+    border-radius: .3rem;
+    background-color: rgb(243, 85, 11);
+}
+.jii{
+    font-size: 1.5rem;
+    font-weight: 600;
+    /* margin-left: 7.6rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem; */
+}
+.jii-1{
+    border: 1px solid red;
+    height: 5rem;
+    width: 80%;
+    margin-left: 7.6rem;
+    padding-left: .5rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(235, 74, 20);
+    border-radius: .3rem;
+}
+
+/* Accordion.css */
+
+.accordion {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    
+    margin: 0 auto;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .accordion-header {
+    background-color: #f1f1f1;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .accordion-header .arrow {
+    position: absolute;
+    right: 15px;
+    font-size: 20px;
+    line-height: 1;
+  }
+  
+  .accordion-body {
+    padding: 15px;
+    display: none;
+    background-color: #fff;
+  }
+  
+  .accordion-body.active {
+    display: block;
+  }
+.FAQs{
+    font-size: 1.6rem;
+    margin-left: 11rem;
+    font-weight: 700;
+  margin-top: 2rem;
+    margin-bottom: 1rem;
+}  
+.accordion{
+    width: 70%;
+
+}
+
+

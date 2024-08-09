@@ -1,0 +1,22 @@
+#login-btn{border: 2px solid rgb(255, 64, 0);
+width: 99%;
+height: 2.5rem;
+border-radius: 4px;
+margin-top: 1rem;
+background-color: rgb(255, 64, 0);
+}
+#login-img img{
+    width: 37rem;
+    height: 27rem;
+    margin-bottom: 1rem;
+    border-radius: .3rem;
+}
+.signup-form{
+    display: flex;
+    gap: .5rem;
+}
+.signup-form input{
+    height: 2.5rem;
+    border-radius: 3px;
+
+}

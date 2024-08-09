@@ -1,0 +1,233 @@
+#pra h1{
+    font-size: 4rem;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+  font-style: normal;
+}
+#pra p{
+    font-size:1.2rem;
+}
+#pra button{
+    border: 1px solid red;
+    height: 3rem;
+    width: 8rem;
+    background-color: aliceblue;
+    color: black;
+    margin-top: 3rem;
+}
+#pra{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-right:2rem ;
+ 
+}
+#pra button:hover{
+    background-color:  rgb(255, 64, 0);
+}
+#home{
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    height: 27rem;
+    margin-left: 3.5rem;
+    margin-right: 2rem;
+    width: 90%;
+    background-color: #c82125;
+    margin-top: 1rem;
+    gap: 3rem;
+}
+#search input{
+    border: 1px solid rgb(158, 156, 156);
+    width: 92%;
+    height: 2.5rem;
+    border-radius: .3rem;
+}
+#search h1{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+#search span{
+ font-size: 1.8rem;
+}
+#search{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+#cc img{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+}
+#cc span{
+    margin-left: 2rem;
+}
+.slider-container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 6rem;
+    margin-right: 5rem;   
+}
+.food-cards{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4,16rem);
+    gap: 2rem;
+}
+.food-card{
+    padding-left: 0rem;
+    border: 1px solid black;
+    height: 25rem;
+    width: 16rem;
+    border-radius: .3rem;
+   
+}
+.food-ditels{
+    margin-left: 1rem;
+}
+.food-ditels h1{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.food-ditels p{
+    color: rgb(70, 70, 70);
+}
+.star{
+    display: flex;
+    color: gray;
+}
+.star{
+    font-size: 1.1rem;
+}
+.food-btns{
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.food-btn-1{
+    border: 1px solid rgb(255, 93, 12);
+    background-color:rgb(255, 93, 12) ;
+    width: 5rem;
+    height: 2rem;
+    font-size: .7rem;
+    color: aliceblue;
+    border-radius: .2rem;
+}
+.food-btn-2{
+    border: 1px solid rgb(255, 93, 12);
+    background-color:rgb(255, 93, 12) ;
+    width: 5rem;
+    height: 2rem;
+    font-size: .7rem;
+    color: aliceblue;
+    border-radius: .2rem;
+}
+.food-img img{
+    width:19rem;
+    height: 13rem;
+    margin-bottom: 2rem;
+}
+.Popular-foods{
+
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+.search-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hide video controls and other options */
+#Video {
+    
+    height: auto;
+    object-fit: cover; /* Optional: Ensures video covers the area */
+}
+
+/* Hide the native controls */
+#Video::-webkit-media-controls {
+    display: none !important;
+}
+
+#Video::-webkit-media-controls-enclosure {
+    display: none !important;
+}
+
+#Video::-webkit-media-controls-panel {
+    display: none !important;
+}
+
+#Video::-webkit-media-controls-play-button {
+    display: none !important;
+}
+
+#Video::-webkit-media-controls-mute-button {
+    display: none !important;
+}
+
+#Video::-webkit-media-controls-timeline {
+    display: none !important;
+}
+
+#Video::-webkit-media-controls-current-time-display {
+    display: none !important;
+}
+
+#Video::-webkit-media-controls-time-remaining-display {
+    display: none !important;
+}
+
+#Video::-webkit-media-controls-fullscreen-button {
+    display: none !important;
+}
+
+#Video::-webkit-media-controls-volume-slider {
+    display: none !important;
+}
+
+#Video::-webkit-media-controls-playback-rate-button {
+    display: none !important;
+}
+
+#Video::-webkit-media-controls-rewind-button {
+    display: none !important;
+}
+
+#Video::-webkit-media-controls-return-to-realtime-button {
+    display: none !important;
+}
+
+#Video::-webkit-media-controls-seek-back-button {
+    display: none !important;
+}
+
+#Video::-webkit-media-controls-seek-forward-button {
+    display: none !important;
+}
+
+#Video::-webkit-media-controls-toggle-closed-captions-button {
+    display: none !important;
+}
+
+#Video::-webkit-media-controls-download-button {
+    display: none !important;
+}
+
+/* Additional styles for full compatibility */
+video::-moz-media-controls,
+video::-ms-media-controls,
+video::-o-media-controls {
+    display: none !important;
+}
+
